@@ -55,6 +55,7 @@
                         exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
                 </div>
             </div>
+        </div>
     </header>
 
     <main class="max-w-6xl lg:m-auto mx-5">
@@ -935,11 +936,46 @@
                 </div>
                 <!-- Form part -->
                 <div>
-
+                    <form class="grid grid-cols-2 gap-6">
+                        <label class="form-control w-full">
+                            <div class="label">
+                                <span class="text-xl font-bold">Your Name</span>
+                            </div>
+                            <input type="text" placeholder="Enter your full name"
+                                class="text-[#131318]  bg-[#131318] bg-opacity-5 p-5 rounded-xl w-full" name="name" />
+                        </label>
+                        <label class="form-control w-full">
+                            <div class="label">
+                                <span class="text-xl font-bold">Your Email</span>
+                            </div>
+                            <input type="text" placeholder="Enter your email"
+                                class="text-[#131318] bg-[#131318] bg-opacity-5 p-5 rounded-xl w-full" name="email" />
+                        </label>
+                        <label class="form-control w-full">
+                            <div class="label">
+                                <span class="text-xl font-bold">Subject</span>
+                            </div>
+                            <input type="text" placeholder="Enter your subject"
+                                class="text-[#131318] bg-[#131318] bg-opacity-5 p-5 rounded-xl w-full" name="subject" />
+                        </label>
+                        <label class="form-control w-full">
+                            <div class="label">
+                                <span class="text-xl font-bold">Phone Number</span>
+                            </div>
+                            <input type="text" placeholder="Enter your phone number"
+                                class="text-[#131318]  bg-[#131318] bg-opacity-5 p-5 rounded-xl w-full" name="phone" />
+                        </label>
+                        <textarea
+                            class="col-span-2 text-[#131318] bg-[#131318] bg-opacity-5 p-5 rounded-xl w-full h-48 lg:h-96 resize-none"
+                            placeholder="Write your message" name="message"></textarea>
+                        <button
+                            class="col-span-2 p-4 font-bold text-xl w-full hover:bg-opacity-90 rounded-2xl bg-[#FF4240] text-white">Send
+                            Message</button>
+                    </form>
                 </div>
             </div>
             <!-- Social Media -->
-            <div class="text-center text-2xl">
+            <div class="text-center text-2xl rounded-xl p-9 bg-opacity-5 bg-[#131318]">
                 <h3 class="mb-4 font-extrabold">Social Media</h3>
                 <div>
                     <ul class="flex gap-5 justify-center">
@@ -953,8 +989,7 @@
         </section>
     </main>
     <footer>
-        <hr class="border-t-2 border-dashed mt-10 mb-6 lg:mb-8">
-        <hr class="border-t-2 border-dashed mt-10 pb-72">
+        <hr class="mt-10 border-white pb-72">
 
     </footer>
 </body>
