@@ -25,7 +25,37 @@
 <body>
     <header class="max-w-6xl lg:m-auto mx-5">
         <!-- Header Menu Section -->
-        <nav></nav>
+        <nav class="flex justify-between items-center my-12 gap-5">
+            <div>
+                <h1 class="text-4xl font-extrabold">Hockey<span class="text-[#FF4240]">’</span>s</h1>
+            </div>
+            <div>
+                <ul class="flex gap-11">
+                    <li><a href="#"><span class="text-[#FF4240] font-bold">Home</span></a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="flex items-center gap-5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <g clip-path="url(#clip0_5_6)">
+                        <path
+                            d="M3 10C3 10.9193 3.18106 11.8295 3.53284 12.6788C3.88463 13.5281 4.40024 14.2997 5.05025 14.9497C5.70026 15.5998 6.47194 16.1154 7.32122 16.4672C8.1705 16.8189 9.08075 17 10 17C10.9193 17 11.8295 16.8189 12.6788 16.4672C13.5281 16.1154 14.2997 15.5998 14.9497 14.9497C15.5998 14.2997 16.1154 13.5281 16.4672 12.6788C16.8189 11.8295 17 10.9193 17 10C17 9.08075 16.8189 8.1705 16.4672 7.32122C16.1154 6.47194 15.5998 5.70026 14.9497 5.05025C14.2997 4.40024 13.5281 3.88463 12.6788 3.53284C11.8295 3.18106 10.9193 3 10 3C9.08075 3 8.1705 3.18106 7.32122 3.53284C6.47194 3.88463 5.70026 4.40024 5.05025 5.05025C4.40024 5.70026 3.88463 6.47194 3.53284 7.32122C3.18106 8.1705 3 9.08075 3 10Z"
+                            stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M21 21L15 15" stroke="#89898B" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_5_6">
+                            <rect width="24" height="24" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg>
+                <button class="p-4 rounded-lg font-bold hover:bg-opacity-90 text-white bg-[#FF4240] text-xl border-0">Get Ticket</button>
+            </div>
+        </nav>
         <!-- carousel section -->
         <div class="relative">
             <div>
@@ -905,7 +935,7 @@
                         </div>
                     </div>
                     <!-- Question 6 -->
-                    <div class="collapse collapse-plus border-b-2 border-[#131318] border-opacity-10 rounded-none">
+                    <div class="collapse collapse-plus rounded-none">
                         <input type="radio" name="my-accordion-3">
                         <div class="collapse-title text-xl font-bold">
                             Pricings
@@ -956,35 +986,39 @@
                                 <span class="text-xl font-bold">Your Name</span>
                             </div>
                             <input type="text" placeholder="Enter your full name"
-                                class="text-[#131318]  bg-[#131318] bg-opacity-5 p-5 rounded-xl w-full" name="name" />
+                                class="text-[#131318]  bg-[#131318] bg-opacity-[0.03] p-5 rounded-xl w-full"
+                                name="name" />
                         </label>
                         <label class="form-control w-full">
                             <div class="label">
                                 <span class="text-xl font-bold">Your Email</span>
                             </div>
                             <input type="text" placeholder="Enter your email"
-                                class="text-[#131318] bg-[#131318] bg-opacity-5 p-5 rounded-xl w-full" name="email" />
+                                class="text-[#131318] bg-[#131318] bg-opacity-[0.03] p-5 rounded-xl w-full"
+                                name="email" />
                         </label>
                         <label class="form-control w-full">
                             <div class="label">
                                 <span class="text-xl font-bold">Subject</span>
                             </div>
                             <input type="text" placeholder="Enter your subject"
-                                class="text-[#131318] bg-[#131318] bg-opacity-5 p-5 rounded-xl w-full" name="subject" />
+                                class="text-[#131318] bg-[#131318] bg-opacity-[0.03] p-5 rounded-xl w-full"
+                                name="subject" />
                         </label>
                         <label class="form-control w-full">
                             <div class="label">
                                 <span class="text-xl font-bold">Phone Number</span>
                             </div>
                             <input type="text" placeholder="Enter your phone number"
-                                class="text-[#131318]  bg-[#131318] bg-opacity-5 p-5 rounded-xl w-full" name="phone" />
+                                class="text-[#131318]  bg-[#131318] bg-opacity-[0.03] p-5 rounded-xl w-full"
+                                name="phone" />
                         </label>
                         <label class="form-control lg:col-span-2 w-full">
                             <div class="label">
                                 <span class="text-xl font-bold">Message</span>
                             </div>
                             <textarea
-                                class="text-[#131318] bg-[#131318] bg-opacity-5 p-5 rounded-xl w-full h-48 lg:h-96 resize-none"
+                                class="text-[#131318] bg-[#131318] bg-opacity-[0.03] p-5 rounded-xl w-full h-48 lg:h-96 resize-none"
                                 placeholder="Write your message" name="message"></textarea>
                         </label>
                         <button
@@ -994,7 +1028,7 @@
                 </div>
             </div>
             <!-- Social Media -->
-            <div class="text-center text-2xl rounded-xl p-9 mt-12 mb-24 bg-opacity-5 bg-[#131318]">
+            <div class="text-center text-2xl rounded-xl p-9 mt-12 mb-14 lg:mb-24 bg-opacity-[0.03] bg-[#131318]">
                 <h3 class="mb-4 font-extrabold">Social Media</h3>
                 <div>
                     <ul class="flex gap-5 justify-center">
@@ -1058,7 +1092,7 @@
                 <a class="link link-hover opacity-60">Hockeys for Adult</a>
             </div>
         </div>
-        <hr class="pb-72 opacity-0">
+        <hr class="pb-72 lg:pb-0 opacity-0">
     </footer>
 
 </body>
